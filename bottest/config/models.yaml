@@ -1,0 +1,12 @@
+cheap: olafangensan-glm-4.7-flash-heretic
+mid: gemma-4-uncensored
+mid_vision: venice-uncensored-1-2
+strong: deepseek-v4-1-flash-uncensored
+strong_rp: venice-uncensored-role-play
+mode_default:
+  default: cheap
+  brief: cheap
+  code: mid
+  hack: mid
+  rp: strong_rp
+allowed_for_user_choice: [cheap, mid, strong]
